@@ -148,7 +148,6 @@ window.addEventListener('message', (event: MessageEvent) => {
         } finally {
           oklchHanding = false;
         }
-        console.info('Color changed to', event.data.color, 'with alpha', event.data.alpha);
       }
       break;
 
